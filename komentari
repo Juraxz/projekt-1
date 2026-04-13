@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Moja stranica</title>
+    <link rel="stylsheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Grooming Salon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Dio s komentarima kupaca -->
+  <div id="komentari">
+    <h2>Komentari kupaca</h2>
+    <ul>
+      <li>
+        <h3>Naslov komentara 1</h3>
+        <p>Kvalitetna usluga i brza dostava. Ocijena: 5/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 2</h3>
+        <p>Sjajna ponuda proizvoda i izvrsna korisnička podrška. Ocijena: 4/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 3</h3>
+        <p>Odličan proizvod, ali malo duže vrijeme dostave. Ocijena: 4/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 4</h3>
+        <p>Vrhunski kvalitet proizvoda i usluge. Ocijena: 5/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 5</h3>
+        <p>Imao sam odlično iskustvo s ovom tvrtkom. Ocijena: 5/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 6</h3>
+        <p>Kupovina je bila jednostavna i brza. Ocijena: 4/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 7</h3>
+        <p>Dobra usluga, ali proizvod je došao s malim oštećenjem. Ocijena: 3/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 8</h3>
+        <p>Vrlo ljubazno osoblje i kvalitetni proizvodi. Ocijena: 5/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 9</h3>
+        <p>Nisam mogao biti sretniji s mojom kupovinom. Ocijena: 5/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 10</h3>
+        <p>Proizvod je odgovarao opisu i dostavljen na vrijeme. Ocijena: 4/5</p>
+      </li>
+    </ul>
+  </div>
+
+<body>
+<a href="https://www.google.com/maps?q=37.7749,-122.4194" target="_blank">Open Google Maps</a>
+</body>
+
+</html>
+
+  <!-- Gumb za povezivanje s lokacijom -->
+  <button onclick="poveziLokaciju()">Poveži se s lokacijom</button>
+
+  <!-- Promjena teksta na gumbu za prijavu nakon ulogiranja -->
+  <button onclick="promijeniTekst()">Prijava</button>
+
+  <script>
+    // JavaScript funkcija za povezivanje s lokacijom
+    function poveziLokaciju() {
+      // Ovdje dodajte kod za povezivanje s određenom lokacijom
+    }
+
+    // JavaScript funkcija za promjenu teksta na gumbu nakon ulogiranja
+    function promijeniTekst() {
+      var gumb = document.querySelector("button");
+      gumb.textContent = "Account";
+      // Ovdje dodajte kod za promjenu funkcionalnosti nakon ulogiranja
+    }
+  </script>
+</body>
+</html>
